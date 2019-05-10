@@ -1,0 +1,44 @@
+body {
+    font-size: 18px;
+    color: #333333;
+    background: #c2ddfc;
+}
+
+header {
+    background: #333333;
+}
+
+h1 {
+    color: #ececee;
+    line-height: 125%;
+    text-align: center;
+}
+
+a {
+    color: rgb(224, 57, 57);
+}
+
+p {
+    clear: center;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.bio,bio-image {
+    float: left;
+}
+
+.contact-info {
+    float: left;
+}
+
+.bio {
+    width: 70%;
+}
+
+.contact-info {
+    width: 30%
+}

@@ -1,19 +1,10 @@
-body {
-float: left;
-    font-size: 24px;
-    color: #777777;
-    background: #fdfdfd;
-    font-weight: 300;
-    margin: 0;
-    padding: 0;
-}
-
 .Title {
-    text-align: center;
+   width: 960px;
     margin: 0 auto;
 }
 
 header {
+    width: 960px;
     text-align: center;
     background: #4aaaa5;
     color: #fdfdfd;
@@ -29,10 +20,13 @@ header::after {
 .About-Me {
     float: left;
     padding: 10px 0;
+    margin-left: 30px;
 }
 
 nav {
+    float: right;
     color: #ececee;
+    margin-right: 30px;
 }
 
 nav ul {
@@ -50,22 +44,32 @@ nav li {
 nav a {
     color: #cccccc;
     text-decoration: none;
+    font-size: 14px
 }
 
 nav a:hover {
     color: #000000
 }
 
-html, body {
-    height: 100%;
+body {
+    width: 960px;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.container {
+    width: 960px;
     margin: 0;
 }
 
-.footer {
+.main-bio {
+width: 960px;
+line-height: 150%;
+}
+
+.contact-form {
     text-align: center;
-    color: #cccccc;
-    margin: 0;
-    padding: 0;
-    background: #666666;
-    height: 40px;
+    background-image: -moz-element()
 }
